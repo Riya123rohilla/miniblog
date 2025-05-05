@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 90px;
+    color: #000;
+    margin-left: 90px;
+  }
+  
+  .home-link {
+    text-decoration: none;
+    font-size: 30px;
+    color: #000;
+    transition: color 0.3s;
+    margin-left: 90px;
+  }
+  
+  .home-link:hover {
+    color: #555;
+  }
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* full screen height */
+  }
+.text{
+    margin-left: 150px;
+    text-align: left;
+    padding: 25px;
+    font-size: 30px;
+}
+.left-text{
+    margin-left: 150px;
+    text-align: left;
+    padding: 0.1px;
+    font-size: 30px;
+    gap: 5px;
+}
+.stories {
+    padding: 60px 40px;
+    text-align: center;
+  }
+  
+  .stories h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  
+  .story-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 300px;
+  }
+  
+  .story-card{
+    width: 400px;
+    text-align: left;
+
+  }
+  
+  .story-card img{
+    width: 400px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    height: 300px;
+  }
+  
+  .story-card h3 {
+    font-size: 30px;
+    margin: 10px 0 5px;
+  }
+  
+  .story-card .date {
+    color: #555;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .story-card .desc {
+    font-size: 20px;
+    color: #222;
+  }
